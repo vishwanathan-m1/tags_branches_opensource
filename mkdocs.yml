@@ -1,0 +1,67 @@
+# Project details
+site_name: Tags Branches - Sandbox   # title for the project documentation
+docs_dir: source     # contains source
+site_description: Sandbox Environment for Dominos Workspace
+site_url: https://opensource.hcltechsw.com/tags_branches_sandbox/
+use_directory_urls: false
+
+# Extensions
+markdown_extensions:
+  - toc:
+      title: On this page
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# Plugins
+plugins:
+  - search
+  - mike:
+      canonical_version: latest
+      alias_type: redirect  
+
+
+# Copyright
+copyright: Copyright &copy; 2021-2025, HCL Technologies Limited
+
+# extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/HCL-TECH-SOFTWARE
+  version:
+      provider: mike
+      alias: true
+
+# Themes
+theme:
+  name: material
+
+# Repository
+repo_name: HCL-TECH-SOFTWARE/tags_branches_sandbox
+repo_url: https://git.cwp.pnp-hcl.com/vishwanathan-m/tags_branches_sandbox
+
+
+# Navigation
+nav: 
+  - Introduction: index.md
+  - About: about.md  
+  - Build Steps: build_notes.md
+  - Module_1:
+    - Component_1:
+        - Topic_1: Module_1/Component_1/Content/Topic1.md
+        - Topic_2: Module_1/Component_1/Content/Topic2.md        
+        - Topic_3: Module_1/Component_1/Content/Topic3.md
+    - Component_2:
+        - Topic_1: Module_1/Component_2/Content/Topic1.md
+        - Topic_2: Module_1/Component_2/Content/Topic2.md
+  - Module_2:
+    - Component_3:
+        - Topic_1: Module_2/Component_3/Content/Topic1.md
+        - Topic_2: Module_2/Component_3/Content/Topic2.md
+    - Component_4:
+        - Topic_1: Module_2/Component_4/Content/Topic1.md
+        - Topic_2: Module_2/Component_4/Content/Topic2.md
+
+
