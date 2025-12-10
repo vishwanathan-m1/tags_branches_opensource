@@ -1,6 +1,5 @@
 Index page
 ===========
 
-Introduction to **Tags and Branches** repository. 
-
+Introduction to **Tags and Branches**. 
 
