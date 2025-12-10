@@ -1,4 +1,4 @@
 Index page
 ===========
 
-Introduction to **Tags and Branches** - V9.5
+Introduction to **Tags and Branches** - V9.5.
